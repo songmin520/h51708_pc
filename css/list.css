@@ -1,0 +1,77 @@
+/*新品*/
+.new_nav{
+	height: 241px;
+}
+.new_nav .new_nav1{
+	width: 1280px;
+	height: 241px;
+	margin: 20px auto 44px;
+}
+.new_nav .new_nav1 .new_title{
+	height: 40px;
+	margin-left: 158px;
+	background: url(../images/sprit.png) 0 -309px;
+}
+.new_nav .new_nav1 .new_list{
+	padding-left:1px ;
+	overflow: hidden;
+}
+.new_nav .new_nav1 .new_list ul{
+	margin-left: 158px;
+}
+.new_nav .new_nav1 .new_list ul li{
+	float: left;
+	width: 160px;
+	
+	overflow: hidden;
+	padding: 0 1px;
+	
+	
+}
+.new_nav .new_nav1 .new_list ul li:nth-child(1){
+	padding-right:  0;
+}
+.new_nav .new_nav1 .new_list ul li a img{
+	width: 160px;
+}
+/*流行*/
+.new_popualr{
+	width: 968px;
+	height: 95px;
+	margin:  auto;
+	margin-left: 197px;
+	background: url(../images/sprit.png) -87px 0px;
+}
+.new_top{
+	width: 968px;
+	margin-left: 197px;
+	overflow: hidden;
+	
+}
+.new_box{
+	width: 1280px;
+	margin:0 auto;
+	height: 500px;
+	
+}
+.new_box .nav1 {
+	width: 968px;
+	margin: 20px auto;
+	overflow: hidden;
+	
+}
+.new_box .nav1 li{
+	float: left;
+	text-align: center;
+	font-size: 12px;
+	width: 191px;
+}
+.new_box .nav1 li a{
+	color: #999999;
+}
+.new_popualr1{
+	background: url(../images/sprit.png) -87px -106px;;
+}
+.new_box1{
+	height: 279px;
+}

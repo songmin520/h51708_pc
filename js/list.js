@@ -1,0 +1,39 @@
+require(["config"],function(){
+	require(["jquery","load"],function(){
+		
+	});
+	require(["jquery","course"],function(){
+		$(".new_top").carousel({
+			width:952,
+			height:440,
+			imgs:[
+			{src:"images/952-440-1.jpg"},
+			{src:"images/952-440-2.jpg"},
+			{src:"images/952-440-3.jpg"},
+			{src:"images/952-440-4.jpg"},
+			{src:"images/952-440-5.jpg"},
+			],
+			isAuto:true,
+			shifTime:5000,
+			type:"fade",
+		});
+		
+	});
+	require(["jquery","course"],function(){
+		$(".new_top1").carousel({
+			width:952,
+			height:440,
+			imgs:[
+			{src:"images/952-440-1.jpg"},
+			{src:"images/952-440-2.jpg"},
+			{src:"images/952-440-3.jpg"},
+			{src:"images/952-440-4.jpg"},
+			{src:"images/952-440-5.jpg"},
+			],
+			isAuto:true,
+			shifTime:5000,
+			type:"fade",
+		});
+		
+	});
+})

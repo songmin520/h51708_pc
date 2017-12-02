@@ -1,0 +1,115 @@
+/*订单的主体*/
+.confirm_bg{
+	width: 100%;
+	background:#f0f0f0;
+}
+.confirm_bg .main{
+	width: 960px;
+	height: 1408px;
+	margin: 0 auto;
+	padding: 23px 0;
+	text-align: left;
+}
+.confirm_bg .main .checkout{
+	width: 930px;
+	height: 138px;
+	margin:0 auto ;
+	background: #fff;
+	
+}
+.confirm_bg .main .checkout .title_bar{
+	width: 900px;
+	height: 30px;
+	background: #ccc;
+	margin: 10px auto;
+	border-radius: 4px;
+	
+	
+}
+.checkout  .adress{
+margin-left: 15px;
+}
+.title_bar h2{
+	float: left;
+	height: 30px;
+	font-size: 15px;
+	padding: 0 18px;
+	line-height: 30px;
+}
+
+.checkout .check_tab{
+	height: 406px;
+	
+	overflow: hidden;
+}
+.checkout .check_tab ul {
+	height: 87px;
+	
+	border-bottom: 1px solid #CCCCCC;
+	
+}
+.checkout .check_tab ul p{
+	margin-left: 47px;
+	height: 20px;
+	font-size: 12px;
+	color: #CCCCCC;
+}
+.checkout .check_tab ul li{
+	float: left;
+	padding: 0 30px;
+	margin-top: 20px;
+}
+.confirm_bg .main .check{
+	height: 411px;
+}
+.confirm_bg .main .check_title {
+	margin-left: 20px;
+}
+.confirm_bg .main .check_title div{
+	float: left;
+	width: 113px;
+	height: 30px;
+	padding: 0 18px;
+	border-bottom: 1px solid;
+}
+.confirm_bg .main .cart_body{
+margin-left: 20px;
+}
+.confirm_bg .main .cart_body .row div{
+	height: 100px;
+	width:147px;
+	text-align: center;
+	line-height: 100px;
+	
+
+}
+.confirm_bg .main p{
+	font-size: 12px;
+	margin: 10px 0;
+	margin-left: 20px;
+	padding: 0 18px;
+}
+.confirm_bg .main textarea{
+	width: 300px;
+	height:100px ;
+	font-size: 12px;
+	margin-left: 36px;
+	color: #CCCCCC;
+	padding: 0 18px;
+}
+.confirm_bg .main a{
+	display: block;
+	width: 200px;
+	height: 40px;
+	position: relative;
+	margin-top: 30px;
+	left: 698px;
+	background: url(../images/34.png)no-repeat;
+}
+.confirm_bg .main .c_out{
+	width: 863px;
+	height: 92px;
+	margin: 0 34px;
+	background: #fffdee;
+	border: 1px solid #CCCCCC;
+}

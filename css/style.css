@@ -1,0 +1,476 @@
+/*注册页面的css*/
+/*头部*/
+.header{
+	height:38px ;
+	background: #f1f1f1;
+}
+.header .main{
+	width: 1280px;
+	height: 38px;
+	/*background: #CCCCCC;*/
+	margin: 0 auto;
+	font-size: 12px;
+	
+}
+.header .main p:nth-of-type(1){
+	margin-left:158px ;
+	float: left;
+	line-height: 38px;
+}
+.header .main p:nth-of-type(1) a:nth-of-type(1){
+	padding-right:  10px;
+	border-right:1px solid #ccc;
+	height: 10px;
+}
+.header .main p:nth-of-type(1) a:nth-of-type(2){
+	padding-left:  10px;
+	
+}
+.header .main p:nth-of-type(2){
+	float: right;
+	margin-right: 158px;
+}
+.header .main p:nth-of-type(2) a{
+	display: block;
+	width: 58px;
+	height: 14px;
+	border-right: 1px solid #ccc;
+	float: left;
+	
+	line-height: 15px;
+	margin: 12px 0;
+	
+}
+.header .main p:nth-of-type(2) a:nth-of-type(2){
+	width: 77px;
+	padding-left:36px ;
+	background: url(../images/cartpic.jpg) no-repeat 5px center;
+}
+.header .main p:nth-of-type(2) a:nth-of-type(2) span{
+	display: block;
+	width: 31px;
+	float: right;
+	color: red;
+	font-weight: 600;
+	
+	background: url(../images/xiasanjiaopic.jpg)no-repeat 13px center;
+}
+.header .main p:nth-of-type(2) a:nth-of-type(3){
+	width: 69px;
+	margin-left: 10px;
+	border-right: none;
+	background: url(../images/xiasanjiaopic.jpg)no-repeat 55px center;
+}
+/*login*/
+.logo{
+	height: 100px;
+	
+}
+.logo .main{
+	width: 1280px;
+	height: 100px;
+	margin: 0 auto;
+}
+.logo .main h1 a{
+	display: block;
+	width: 100px;
+	height:100px ;
+	text-align: center;
+	line-height: 100px;
+	margin-left: 158px;
+	float: left;
+	background: url(../images/logo.png)no-repeat center center;
+	
+}
+.logo .main h1 a span{
+	display: none;
+}
+.logo .main .center {
+	width: 400px;
+	height: 100px;
+	float: left;
+	margin-left: 229px;
+	
+}
+.logo .main .center input{
+	width: 277px;
+	height: 31px;
+	background: #f1f1f1;
+	margin-top: 20px ;
+	border:1px solid #ccc;
+}
+.logo .main .center button{
+	width: 82px;
+	height: 34px;
+	border: none;
+	background: #cb224e;
+	color: #FFFFFF;
+}
+.logo .main .center ul li{
+	float: left;
+	width: 65px;
+	
+	text-align: center;
+	
+	font-size: 12px;
+	border-right: 1px solid #ccc;
+	margin-top: 3px;
+}
+.logo .main .center ul li a{
+	color: #000000;
+}
+.logo .main .center ul li:nth-child(1) a{
+	color: #FF0000;
+}
+.logo .main .center ul li:nth-child(3) a{
+	color: #FF0000;
+}
+.logo .main .center ul li:nth-child(5){
+	border-right: none;
+}
+.logo .main p{
+	float: right;
+	
+	margin: 12px  0 ;
+	margin-right: 158px;
+}
+/*导航*/
+.nav{
+	height:35px;
+	background: #d51c4e;
+}
+.nav .main{
+	width: 1280px;
+	height:35px ;
+	margin: 0 auto;
+}
+.nav .main p{
+	width: 208px;
+	height: 35px;
+	text-align: center;
+	line-height: 35px;
+	background: brown;
+	float: left;
+	margin-left: 158px;
+	color: #FFFFFF;
+	background:#ad143e url("../images/xialapic.jpg") no-repeat 166px center;
+}
+.nav .main ul{
+	float: left;
+	width: 400px;
+	height: 35px;
+}
+.nav .main ul li{
+	height: 20px;
+	float: left;
+	padding:0 10px;
+	margin: 8px 0;
+	font-size: 15px;
+	border-right:1px solid #e04d75;
+}
+.nav .main ul li:nth-child(4){
+	border-right: none;
+}
+.nav .main ul li a{
+	color: #ffffff;
+}
+.nav .main span{
+	float: right;
+	display: block;
+	width: 62px;
+	margin-right: 158px;
+	color: #ffffff;
+	font-size: 12px;
+	line-height: 25px;
+	text-align: right;
+	background:url(../images/phonepic.jpg)no-repeat left center ;
+}
+/*注册页面*/
+.register{
+		height:440px;
+		background: #CCCCCC;
+		overflow: hidden;
+		}
+.register .box{
+		width: 964px;
+		height:411px;
+		margin: 20px auto;
+		background: #ffffff;
+		} 
+.register .box p:nth-of-type(1){
+	height: 50px;
+	border-bottom: 1px solid #ccc;
+	line-height: 50px;
+	font-size: 15px;
+	font-weight: 600;
+	padding-left: 20px;
+	
+	
+}
+.register .box .reg_box{
+	width: 600px;
+	height: 347px;
+	margin: 30px auto;
+}
+
+.register .box .reg_box p{
+	
+	height: 40px;
+	width: 600px;
+	
+	
+	
+}
+.register .box .reg_box p:nth-of-type(1){
+	padding-left: 0;
+	border-bottom: none;
+	font-size: 12px;
+	font-weight: 500;
+}
+.register .box .reg_box p:nth-of-type(1) span:nth-of-type(2){
+	width: 200px;
+	text-align: left;
+	
+}
+.register .box .reg_box p span{
+	display: block;
+	width: 69px;
+	height: 30px;
+	font-size: 12px;
+	text-align: right;
+	line-height: 30px;
+	float: left;
+}
+.register .box .reg_box p input{
+	float: left;
+	width: 215px;
+	height: 24px;
+	margin-left:10px ;
+}
+.register .box .reg_box p:nth-of-type(4) input{
+	width: 77px;
+}
+.register .box .reg_box p:nth-of-type(4) span:nth-of-type(2){
+	width:126px ;
+	height: 30px;
+	background: #87b93c;
+	text-align: center;
+	margin-left:10px ;
+	color: #FFFFFF;
+}
+.register .box .reg_box button{
+	margin-left: 80px;
+	height: 30px;
+	border: none;
+	width: 100px;
+	text-align: center;
+	line-height: 30px;
+	color: #FFFFFF;
+	background: #ff0000;
+		
+	
+}
+.register .box .reg_box p:nth-of-type(5) input{
+	width: 64px;
+	height: 24px;
+	margin-left: -41px;
+}
+.register .box .reg_box p:nth-of-type(5) span{
+	width: 225px;
+	height: 30px;
+	text-align: center;
+	margin-top: 6px;
+	
+}
+.register .box .reg_box p:nth-of-type(5) span label{
+	color: #FF0000;
+}
+/*登录页面的样式*/
+.login_header{
+	height: 100px;
+	border-bottom: 3px solid #FF0000;
+}
+.login_header .main{
+	width: 1280px;
+	height: 100px;
+	margin: 0 auto;
+
+	
+}
+.login_header .main h1 a{
+	display: block;
+	width: 100px;
+	height:100px ;
+	text-align: center;
+	line-height: 100px;
+	margin-left: 158px;
+	float: left;
+	background: url(../images/mbblogo.png)no-repeat center center;
+	
+}
+.login_header .main h1 a span{
+	display: none;
+}
+.login_header .main p{
+	float: right;
+	margin-right: 158px;
+	margin-top: 64px;
+	font-size: 12px;
+	color: #999999;
+}
+.login_header .main p a{
+	color: #999999;
+	padding-left: 12px;
+}
+/*登录主体页面*/
+.login{
+	height: 363px;
+}
+.login .main{
+	height: 363px;
+	width: 1280px;
+	margin: 0 auto;
+}
+.login .main img{
+	float: left;
+	margin-left: 158px;
+	margin-top:30px;
+}
+.login .main .login_box{
+	width: 407px;
+	height: 241px;
+	background: #f5f5f5;
+	float: right;
+	margin-right: 158px;
+	margin-top:30px;
+	font-size: 12px;
+	padding: 30px;
+}
+.login .main .login_box p{
+	width: 400px;
+	height: 30px;
+}
+.login .main .login_box p:nth-of-type(1){
+	
+	font-size: 16px;
+	font-weight: 600;
+	border-bottom: 1px solid #CCCCCC;
+	line-height: 30px;
+}
+.login .main .login_box p:nth-of-type(1) span{
+	font-size: 12px;
+	float: right;
+	font-weight: 500;
+	display: block;
+	width: 200px;
+	height: 30px;
+	
+}
+.login .main .login_box p:nth-of-type(1) span a{
+	color: #FF0000;
+}
+.login .main .login_box p:nth-of-type(2){
+	margin-top: 20px;
+}
+.login .main .login_box p:nth-of-type(2) span{
+	display: block;
+	width: 69px;
+	height: 30px;
+	font-size: 15px;
+	text-align: right;
+	line-height: 30px;
+	float: left;
+	
+	
+	
+}
+.login .main .login_box p:nth-of-type(2) input{
+	margin-left: 10px;
+	width: 180px;
+	height: 25px;
+}
+.login .main .login_box p:nth-of-type(3){
+	margin-top: 20px;
+}
+.login .main .login_box p:nth-of-type(3) span{
+	display: block;
+	width: 69px;
+	height: 30px;
+	font-size: 15px;
+	text-align: right;
+	line-height: 30px;
+	float: left;
+	
+	
+}
+.login .main .login_box p:nth-of-type(3) input{
+	margin-left: 10px;
+	width: 180px;
+	height: 25px;
+}
+.login .main .login_box p:nth-of-type(4) button{
+	width: 100px;
+	height: 30px;
+	background: #FF0000;
+	border: none;
+	margin-top: 20px;
+	color: #FFFFFF;
+	margin-left: 79px;
+}
+.login .main .login_box p:nth-of-type(5) {
+	margin-top:50px;
+}
+.login .main .login_box ul li{
+	
+	float: left;
+
+	height: 12px;
+}
+.login .main .login_box ul li a{
+	display: block;
+	width: 80px;
+	height:18px;
+	color: #999999;
+	text-align: right;
+	border-right: 1px solid #e1dde1;
+	background: url(../images/login_single_page.png) no-repeat 30px 20px;
+}
+.login .main .login_box ul li:nth-child(1) a{
+	
+	background-position:6px -42px ;
+}
+.login .main .login_box ul li:nth-child(2) a{
+	width:50px ;
+	background: url(../images/qq.png)no-repeat 8px 1px;
+
+}
+.login .main .login_box ul li:nth-child(3) a{
+	width:79px ;
+	background-position:9px -81px ;
+}
+.login .main .login_box ul li:nth-child(4) a{
+	width:74px ;
+	background-position:9px -110px ;
+}
+.login .main .login_box ul li:nth-child(5) a{
+	width:53px ;
+	border-right: none;
+	background-position:9px -208px ;
+}
+/*登录的底部*/
+.footer{
+	height: 100px;
+	
+}
+.footer .main{
+	height:100px;
+	width:1280px ;
+	margin: 0 auto;
+}
+.footer .main p{
+	font-size: 12px;
+	text-align: right;
+	margin-right: 158px;
+	line-height:100px;
+	color: #999999;
+}
